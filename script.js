@@ -1,7 +1,10 @@
 function firstChar(text) {
-  // your code here
-	let newtext=text.trim();
-	return newtext[0]
+ let newtext = text.trim(); 
+  if (newtext.length > 0) {
+    return newtext[0]; 
+  } else {
+    return ''; 
+  }
 }
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
